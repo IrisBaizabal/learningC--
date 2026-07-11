@@ -12,10 +12,10 @@ int main() {
   std::string *ptip3 = &tip3;
   std::string *ptip4 = &tip4;
 
-  std::cout << ptip1 << std::endl;
-  std::cout << ptip2 << std::endl;
-  std::cout << ptip3 << std::endl;
-  std::cout << ptip4 << std::endl;
+  std::cout << *ptip1 << std::endl;
+  std::cout << *ptip2 << std::endl;
+  std::cout << *ptip3 << std::endl;
+  std::cout << *ptip4 << std::endl;
 
   
 }
