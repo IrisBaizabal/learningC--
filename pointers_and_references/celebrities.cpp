@@ -15,5 +15,4 @@ int main(){
 
     std::cout << zendaya << std::endl;
     std::cout << female_celebrity << std::endl;
-
 }
